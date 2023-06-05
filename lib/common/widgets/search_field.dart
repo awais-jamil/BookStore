@@ -48,7 +48,6 @@ class CustomSearchField<T extends Object> extends StatelessWidget {
       optionHeight: optionHeight,
       visibleOptionCount: visibleOptionCount,
       margin: margin,
-      optionsOffset: optionsOffset,
       focusNode: focusNode,
       controller: controller,
       initialValue: initialValue,
@@ -67,6 +66,7 @@ class CustomSearchField<T extends Object> extends StatelessWidget {
       controller: controller,
       hintText: hintText,
       focusNode: focusNode,
+      onChanged: onChanged,
       onFieldSubmitted: (_) => onFieldSubmitted(),
     );
   }
