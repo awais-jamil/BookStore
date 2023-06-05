@@ -10,6 +10,9 @@ class HomePage extends StatelessWidget {
         RepositoryProvider<BookDataClient>(
           create: (context) => BookLocalClient(),
         ),
+        // RepositoryProvider<BookDataClient>(
+        //   create: (context) => BookRemoteClient(DioClient().initDioClient()),
+        // ),
         RepositoryProvider<BookRepository>(
           create: (context) => BookRepositoryImpl(
             client: context.read<BookDataClient>(),

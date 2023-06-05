@@ -12,6 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
 
+  dio: ^5.1.2
   google_fonts: ^5.0.0
   flutter_svg: ^2.0.6
   collection: ^1.17.1
@@ -23,6 +24,9 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.1
+  retrofit: ^4.0.1
+  retrofit_generator: ^7.0.1
+  build_runner: ^2.4.4
 
 flutter:
   uses-material-design: true
